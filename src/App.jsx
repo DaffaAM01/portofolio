@@ -35,9 +35,9 @@ function App() {
             </p>
           </div>
           <div className="relative">
-            <img src="/profil.png" />
+            <img src="profil.png" />
             <img
-              src="/icon_profil.png"
+              src="icon_profil.png"
               className="w-28 h-28 rounded-full shadow-lg absolute -bottom-12"
             ></img>
           </div>
