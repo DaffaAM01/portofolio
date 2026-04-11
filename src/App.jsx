@@ -45,7 +45,7 @@ function App() {
       </section>
       <section id="#about">
         <h1 className="text-center font-bold text-3xl mt-6 ">Tentang Kami</h1>
-        <div className="flex justify-between items-center px-50 py-5 gap-96">
+        <div className="flex justify-between items-center px-50 py-10 gap-96">
           <div>
             <h1 className="text-2xl text-justify mt-0">
               ini adalah sebuah portofolio saya yang menyangkut informasi
@@ -64,7 +64,7 @@ function App() {
             </div>
           </div>
           <div>
-            <img src="/about.png" className="w-300 h-auto"></img>
+            <img src="about.png" className="w-300 h-auto"></img>
           </div>
         </div>
       </section>
@@ -79,7 +79,7 @@ function App() {
         <div className="grid grid-cols-3 gap-4 mt-20">
           <div className="shadow-xl/30 p-4 rounded-lg bg-white overflow-hidden">
             <div className="relative w-full">
-              <img src="/project.png" className="w-full h-full object-cover rounded-t-lg" />
+              <img src="project.png" className="w-full h-full object-cover rounded-t-lg" />
               <p className="absolute -bottom-2 -left-2 text-black/40 text-3xl font-bold px-2 py-1 rounded">
                 gambar di dalam teks
               </p>
@@ -96,7 +96,7 @@ function App() {
           </div>
           <div className="shadow-xl/30 p-4 rounded-lg bg-white">
             <div className="relative w-full">
-              <img src="/project.png" className="w-full rounded" />
+              <img src="project.png" className="w-full rounded" />
               <p className="absolute -bottom-2 -left-2 text-black/40 text-3xl font-bold px-2 py-1 rounded">
                 gambar di dalam teks
               </p>
@@ -113,7 +113,7 @@ function App() {
           </div>
           <div className="shadow-xl/30 p-4 rounded-lg bg-white">
             <div className="relative w-full">
-              <img src="/project.png" className="w-full rounded" />
+              <img src="project.png" className="w-full rounded" />
               <p className="absolute -bottom-2 -left-2 text-black/40 text-3xl font-bold px-2 py-1 rounded">
                 gambar di dalam teks
               </p>
@@ -129,8 +129,8 @@ function App() {
             </div>
           </div>  
           <div className="shadow-xl/30 p-4 rounded-lg bg-white">
-            <div className="relative w-full">
-              <img src="/project.png" className="w-full rounded" />
+            <div className="relative w-full overflow-hidden transition duration-300 hover:scale-105 hover:-translate-y-2">
+              <img src="project.png" className="w-full rounded" />
               <p className="absolute -bottom-2 -left-2 text-black/40 text-3xl font-bold px-2 py-1 rounded">
                 gambar di dalam teks
               </p>
@@ -146,8 +146,8 @@ function App() {
             </div>
           </div>  
           <div className="shadow-xl/30 p-4 rounded-lg bg-white">
-            <div className="relative w-full">
-              <img src="/project.png" className="w-full rounded" />
+            <div className="relative w-full overflow-hidden transition duration-300 hover:scale-105 hover:-translate-y-2">
+              <img src="project.png" className="w-full rounded" />
               <p className="absolute -bottom-2 -left-2 text-black/40 text-3xl font-bold px-2 py-1 rounded">
                 gambar di dalam teks
               </p>
@@ -163,8 +163,8 @@ function App() {
             </div>
           </div>  
           <div className="shadow-xl/30 p-4 rounded-lg bg-white">
-            <div className="relative w-full">
-              <img src="/project.png" className="w-full rounded" />
+            <div className="relative w-full overflow-hidden transition duration-300 hover:scale-105 hover:-translate-y-2">
+              <img src="project.png" className="w-full h-40 object-cover transition duration-300 hover:scale-110" />
               <p className="absolute -bottom-2 -left-2 text-black/40 text-3xl font-bold px-2 py-1 rounded">
                 gambar di dalam teks
               </p>
